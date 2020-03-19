@@ -10,7 +10,9 @@
   ],
   "scripts": {
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test-report": "jest --coverage --coverageReporters=text-lcov | coveralls",
+    "test-without-reporting": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -22,14 +24,34 @@
     "javascript",
     "library"
   ],
-  "author": "",
+  "author": "Anand Chowdhary <mail@anandchowdhary.com>",
+  "engines": {
+    "node": ">=10.0.0"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/AnandChowdhary/node.ts/issues"
   },
   "homepage": "https://anandchowdhary.github.ui/node.ts/",
+  "dependencies": {},
   "devDependencies": {
+    "@types/jest": "^25.1.4",
     "@types/node": "^13.9.2",
+    "jest": "^25.1.0",
+    "ts-jest": "^25.2.1",
     "typescript": "^3.8.3"
+  },
+  "jest": {
+    "roots": [
+      "<rootDir>"
+    ],
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "moduleFileExtensions": [
+      "js",
+      "ts",
+      "json"
+    ]
   }
 }
