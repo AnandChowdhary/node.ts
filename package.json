@@ -1,0 +1,25 @@
+{
+  "name": "node.ts",
+  "version": "1.0.0",
+  "description": "Opinionated starter for Node.js + TypeScript libraries",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnandChowdhary/node.ts.git"
+  },
+  "keywords": [
+    "node.js",
+    "typescript",
+    "javascript",
+    "library"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AnandChowdhary/node.ts/issues"
+  },
+  "homepage": "https://anandchowdhary.github.ui/node.ts/"
+}
