@@ -4,6 +4,7 @@
   "description": "Opinionated starter for Node.js + TypeScript libraries",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/AnandChowdhary/node.ts/issues"
   },
-  "homepage": "https://anandchowdhary.github.ui/node.ts/"
+  "homepage": "https://anandchowdhary.github.ui/node.ts/",
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
 }
