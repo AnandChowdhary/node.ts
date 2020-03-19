@@ -4,6 +4,7 @@ Opinionated TypeScript starter for server-side Node.js libraries
 
 [![GitHub Actions](https://github.com/AnandChowdhary/node.ts/workflows/Node%20CI/badge.svg)](https://github.com/AnandChowdhary/node.ts/actions)
 [![Travis CI](https://img.shields.io/travis/AnandChowdhary/node.ts.svg)](https://travis-ci.org/AnandChowdhary/node.ts)
+[![Coverage](https://coveralls.io/repos/github/AnandChowdhary/node.ts/badge.svg?branch=master&v=2)](https://coveralls.io/github/AnandChowdhary/node.ts?branch=master)
 [![Dependencies](https://img.shields.io/librariesio/release/npm/@anandchowdhary/node.ts)](https://libraries.io/npm/@anandchowdhary%2Fnode.ts)
 [![License](https://img.shields.io/npm/l/@anandchowdhary/node.ts)](https://github.com/AnandChowdhary/node.ts/blob/master/LICENSE)
 [![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/npm/@anandchowdhary/node.ts.svg)](https://snyk.io/test/npm/@anandchowdhary/node.ts)
