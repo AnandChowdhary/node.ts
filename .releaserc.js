@@ -1,10 +1,11 @@
 const dateFormat = require("dateformat");
 const readFileAsync = require("fs").promises.readFile;
+const { join } = require("path");
 
-const template = readFileAsync(path.join(TEMPLATE_DIR, "default-template.hbs"));
-const commitTemplate = readFileAsync(
-  path.join(TEMPLATE_DIR, "commit-template.hbs")
-);
+const TEMPLATE_DIR =
+  "node_modules/semantic-release-gitmoji/lib/assets/templates";
+const template = readFileAsync(join(TEMPLATE_DIR, "default-template.hbs"));
+const commitTemplate = readFileAsync(join(TEMPLATE_DIR, "commit-template.hbs"));
 
 module.exports = {
   plugins: [
