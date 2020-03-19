@@ -2,7 +2,12 @@
   "name": "node.ts",
   "version": "1.0.0",
   "description": "Opinionated starter for Node.js + TypeScript libraries",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "bin": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,6 +29,7 @@
   },
   "homepage": "https://anandchowdhary.github.ui/node.ts/",
   "devDependencies": {
+    "@types/node": "^13.9.2",
     "typescript": "^3.8.3"
   }
 }
