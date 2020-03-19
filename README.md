@@ -16,6 +16,10 @@ Opinionated TypeScript starter for server-side Node.js libraries
 
 [![npm](https://nodei.co/npm/node.ts.png)](https://www.npmjs.com/package/node.ts)
 
+## Hello
+
+1. Add `NPM_TOKEN` as a GitHub secret in your repository
+
 ## 💡 Usage
 
 Install the package from [npm](https://www.npmjs.com/package/@anandchowdhary/node.ts):
