@@ -33,7 +33,7 @@
   "bugs": {
     "url": "https://github.com/AnandChowdhary/node.ts/issues"
   },
-  "homepage": "https://anandchowdhary.github.ui/node.ts/",
+  "homepage": "https://anandchowdhary.github.io/node.ts/",
   "dependencies": {},
   "devDependencies": {
     "@semantic-release/git": "^9.0.0",
