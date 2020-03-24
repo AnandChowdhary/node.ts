@@ -15,7 +15,7 @@ Opinionated starter for server-side Node.js libraries, with [TypeScript](https:/
 [![Contributors](https://img.shields.io/github/contributors/AnandChowdhary/node.ts)](https://github.com/AnandChowdhary/node.ts/graphs/contributors)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
-[![npm](https://nodei.co/npm/node.ts.png)](https://www.npmjs.com/package/node.ts)
+[![npm](https://nodei.co/npm/@anandchowdhary/node.ts.png)](https://www.npmjs.com/package/@anandchowdhary/node.ts)
 
 ## ⭐ Using Node.ts
 
