@@ -51,7 +51,9 @@ Make the following changes to `package.json`:
 1. Add your npm token (`NPM_TOKEN`) as a GitHub secret in your repository ([more details](https://github.com/semantic-release/semantic-release/blob/master/docs/recipes/github-actions.md))
 2. Log in or sign up on [Coveralls](https://coveralls.io) and [add your repository](https://coveralls.io/repos/new)
 3. Remove this section ("Using Node.ts"), keeping the "Usage" section below
-4. Write commits messages using [Gitmoji](https://gitmoji.carloscuesta.me)
+4. Replace "AnandChowdhary/eject-dependencies" with your GitHub "username/repository" in `.releaserc.json`
+5. [Set up GitHub Pages with `master` branch](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source)
+6. Write commits messages using [Gitmoji](https://gitmoji.carloscuesta.me)
 
 ## 💡 Usage
 
